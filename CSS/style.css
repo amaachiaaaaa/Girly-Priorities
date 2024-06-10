@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#header_bg {
+    background-image: url("../Images/beauty\ 2.webp");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 10rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    font-weight: bolder;
+}
+
+#navlinks {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#ul_list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+
+.nav-item {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav-item:hover {
+    color: red;
+}
+
+.btn {
+    background-color: transparent;
+    padding: 4px 20px;
+    border-radius: 1rem;
+    border: 2px solid white;
+}
+
+.btn a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header-text {
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 10rem;
+}
+
+.about-section {
+    margin: 5rem 10rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.images {
+    display: flex;
+    width: 50%;
+    gap: 2rem;
+}
+
+.about-text {
+    width: 40%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-text h5 {
+    color: rgba(255, 0, 0, 0.582);
+    font-size: 30px;
+}
+
+.about-text h1 {
+    font-size: 2rem;
+}
+
+.images img {
+    width: 65%;
+}
+
+
+.btn-2 {
+    background-color: transparent;
+    padding: 6px 25px;
+    border-radius: 1rem;
+    border: none;
+    background-color: orange;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.btn-2 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn-2:hover {
+    background-color: red;
+}
+
+.serve-section {
+    margin: 4rem 10rem;
+}
+
+.serve-images {
+    display: flex;
+    gap: 30px;
+}
+
+.images {
+    width: 50%;
+
+}
+
+.image img {
+    width: 100%;
+}
+
+.serve-text {
+    padding-bottom: 2rem;
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.serve-text h4 {
+    color: red;
+    font-size: 30px;
+
+}
+
+.image a {
+    text-decoration: none;
+}
+
+.serve-btn{
+    text-align: center;
+    margin-top: 2rem;
+}
