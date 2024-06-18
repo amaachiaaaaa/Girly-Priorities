@@ -3,6 +3,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    
+
 }
 
 #header_bg {
@@ -10,8 +12,9 @@ body {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    padding: 2rem 10rem;
+    padding: 2rem;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 #logo {
@@ -26,6 +29,13 @@ body {
     display: flex;
     justify-content: space-between;
 
+}
+.navlink{
+    background: brown;
+    border: none;
+    text-decoration: none;
+    
+   
 }
 
 #ul_list {
@@ -49,6 +59,9 @@ body {
     padding: 4px 20px;
     border-radius: 1rem;
     border: 2px solid white;
+    margin-top: 15px;
+    margin-right: 10px;
+    
 }
 
 .btn a {
@@ -56,10 +69,15 @@ body {
     color: aliceblue;
 }
 
+.btn:hover {
+    background-color: red;
+}
+
 .header-text {
     color: aliceblue;
     font-size: 20px;
     margin-top: 10rem;
+    
 }
 
 .about-section {
@@ -80,9 +98,9 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.about-text h5 {
-    color: rgba(255, 0, 0, 0.582);
-    font-size: 30px;
+.about-text h4 {
+    color: tomato;
+    font-size: 35px;
 }
 
 .about-text h1 {
@@ -91,26 +109,6 @@ body {
 
 .images img {
     width: 65%;
-}
-
-
-.btn-2 {
-    background-color: transparent;
-    padding: 6px 25px;
-    border-radius: 1rem;
-    border: none;
-    background-color: orange;
-    font-size: 20px;
-    color: aliceblue;
-}
-
-.btn-2 a {
-    text-decoration: none;
-    color: aliceblue;
-}
-
-.btn-2:hover {
-    background-color: red;
 }
 
 .serve-section {
@@ -122,9 +120,19 @@ body {
     gap: 30px;
 }
 
+
 .images {
     width: 50%;
 
+}
+
+.image h2{
+    font-size: 20pt;
+    color: #A75D5D;
+}
+
+.image p{
+    font-size: 15pt;
 }
 
 .image img {
@@ -140,9 +148,19 @@ body {
 }
 
 .serve-text h4 {
-    color: red;
-    font-size: 30px;
+    color: tomato;
+    font-size: 35px;
 
+}
+
+.sec{
+    margin-top: 6rem;
+}
+
+.sec h4{
+    font-size: 30pt;
+    color: tomato;
+    text-align: center;
 }
 
 .image a {
@@ -152,4 +170,76 @@ body {
 .serve-btn{
     text-align: center;
     margin-top: 2rem;
+}
+
+.carousel{
+    height: 100vh;
+    perspective: 250px;
+   
+ }
+
+ .carousel.carousel-item{
+    width: 450px;
+  
+ }
+ .car-content{
+    position: relative;
+    margin: 0.5rem 0 0.5rem 0;
+    background-color: brown;
+    width: 450px;
+    height: 380px;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    padding: 8px 0;
+    box-shadow: 0 8px 20px 0;
+   
+ }
+ .car-content h5{
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+ }
+ .car-content p{
+    font-size: 16px;
+    padding: 30px 35px;
+ }
+
+ .Gallery{
+    gap: 30rem;
+    padding: 2rem 5rem;
+ }
+
+.sec-gal h4{
+text-align: center;
+color: tomato;
+font-size: 35pt;
+}
+
+.sec-gal{
+    margin-top: 6rem;
+}
+ 
+footer {
+    background-color: brown;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-name {
+    font-size: 30px;
+    color: aliceblue;
+   
+}
+
+.copywrite{
+    color: aliceblue;
+    font-size: 20px;
 }
